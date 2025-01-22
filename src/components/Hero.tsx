@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Dumbbell } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -11,18 +12,17 @@ export const Hero = () => {
           className="space-y-6"
         >
           <span className="px-4 py-2 bg-primary text-white rounded-full text-sm font-medium inline-block">
-            Transforme seu futuro
+            <Dumbbell className="w-4 h-4 inline-block mr-2" />
+            Seu Personal Trainer Ideal
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-secondary">
-            Aprenda inglês de forma{" "}
-            <span className="text-primary">revolucionária</span>
+            Encontre o <span className="text-primary">personal trainer</span> perfeito para você
           </h1>
           <p className="text-secondary-light text-lg md:text-xl max-w-xl">
-            Metodologia exclusiva que combina tecnologia e aprendizado personalizado
-            para você alcançar a fluência.
+            Conectamos você aos melhores personal trainers da sua região, com experiência comprovada e avaliações reais.
           </p>
           <button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105">
-            Comece agora
+            Baixe o App Agora
           </button>
         </motion.div>
         <motion.div
@@ -32,8 +32,8 @@ export const Hero = () => {
           className="relative"
         >
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-            alt="Estudante"
+            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b"
+            alt="Personal Trainer"
             className="rounded-2xl shadow-2xl w-full object-cover"
             style={{ height: "600px" }}
           />

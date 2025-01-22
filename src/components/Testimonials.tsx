@@ -3,25 +3,25 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Ana Silva",
-    role: "Estudante",
+    name: "Carlos Silva",
+    role: "Aluno",
     content:
-      "A metodologia é incrível! Em apenas 6 meses já consigo me comunicar em inglês com confiança.",
+      "Encontrei um personal trainer incrível através do app. Em 3 meses já vi resultados surpreendentes!",
+    image: "https://images.unsplash.com/photo-1603415526960-f7e0328c63b1",
+  },
+  {
+    name: "Marina Santos",
+    role: "Aluna",
+    content:
+      "O app tornou super fácil encontrar um personal que se adequasse à minha rotina.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
   },
   {
-    name: "Pedro Santos",
-    role: "Profissional",
+    name: "Pedro Costa",
+    role: "Personal Trainer",
     content:
-      "O método personalizado fez toda diferença no meu aprendizado. Recomendo muito!",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e",
-  },
-  {
-    name: "Maria Costa",
-    role: "Empresária",
-    content:
-      "Finalmente encontrei um método que se adapta à minha rotina corrida.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+      "Como personal, o app me ajudou a expandir minha base de alunos de forma incrível.",
+    image: "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61",
   },
 ];
 
@@ -39,7 +39,7 @@ export const Testimonials = () => {
             Depoimentos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mt-6">
-            O que nossos alunos dizem
+            O que dizem nossos usuários
           </h2>
         </motion.div>
 

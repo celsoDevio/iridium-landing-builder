@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Rocket, Brain, Target, Users } from "lucide-react";
+import { Medal, Clock, Star, Shield } from "lucide-react";
 
 const benefits = [
   {
-    icon: Rocket,
-    title: "Aprendizado Acelerado",
-    description: "Metodologia que garante resultados até 3x mais rápidos",
+    icon: Medal,
+    title: "Profissionais Certificados",
+    description: "Todos os personal trainers são certificados e verificados",
   },
   {
-    icon: Brain,
-    title: "Método Cognitivo",
-    description: "Desenvolvido por especialistas em neuroaprendizagem",
+    icon: Clock,
+    title: "Horários Flexíveis",
+    description: "Agende treinos de acordo com sua disponibilidade",
   },
   {
-    icon: Target,
-    title: "Foco em Resultados",
-    description: "Acompanhamento personalizado do seu progresso",
+    icon: Star,
+    title: "Avaliações Reais",
+    description: "Veja avaliações de alunos reais antes de escolher",
   },
   {
-    icon: Users,
-    title: "Comunidade Ativa",
-    description: "Pratique com outros alunos e acelere seu aprendizado",
+    icon: Shield,
+    title: "100% Seguro",
+    description: "Pagamentos seguros e garantia de satisfação",
   },
 ];
 
@@ -38,7 +38,7 @@ export const Benefits = () => {
             Benefícios
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mt-6">
-            Por que escolher a nossa metodologia?
+            Por que escolher nosso app?
           </h2>
         </motion.div>
 
