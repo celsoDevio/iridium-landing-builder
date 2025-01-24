@@ -8,24 +8,24 @@ import {
 
 const faqs = [
   {
-    question: "Como funciona o aplicativo?",
-    answer: "Nosso app conecta você a personal trainers qualificados na sua região. Basta criar um perfil, definir suas preferências e objetivos, e começar a buscar por profissionais que atendam às suas necessidades.",
+    question: "Como funciona o cadastro na plataforma?",
+    answer: "O cadastro é simples e rápido. Você precisa fornecer seus dados profissionais, certificações e criar seu perfil. Após a verificação das informações, você já pode começar a receber alunos.",
   },
   {
-    question: "Como são selecionados os personal trainers?",
-    answer: "Todos os profissionais passam por um rigoroso processo de verificação, incluindo validação de certificações e referências. Apenas os melhores são aceitos na plataforma.",
+    question: "Quanto custa usar a plataforma?",
+    answer: "Trabalhamos com um modelo de comissão por aluno. Você só paga quando receber novos alunos através da plataforma. Não há taxas mensais fixas.",
   },
   {
-    question: "Quanto custa usar o aplicativo?",
-    answer: "O download e cadastro no aplicativo são gratuitos. Os valores das sessões são definidos por cada personal trainer, e você pode ver os preços antes de agendar.",
+    question: "Como funciona o sistema de pagamentos?",
+    answer: "Os pagamentos são processados automaticamente através da plataforma. Você recebe diretamente na sua conta, com total segurança e transparência.",
   },
   {
-    question: "Como funciona o pagamento?",
-    answer: "Oferecemos um sistema de pagamento seguro integrado ao aplicativo. Você pode pagar com cartão de crédito, débito ou PIX.",
+    question: "Posso definir minha própria agenda?",
+    answer: "Sim, você tem total controle sobre sua agenda e horários disponíveis. Pode atualizar sua disponibilidade a qualquer momento.",
   },
   {
-    question: "Posso cancelar uma sessão?",
-    answer: "Sim, você pode cancelar ou reagendar sessões com antecedência mínima de 24 horas sem custo adicional.",
+    question: "Como faço para me destacar na plataforma?",
+    answer: "Mantenha seu perfil atualizado, compartilhe resultados dos seus alunos e peça avaliações. Quanto mais ativo e bem avaliado, mais visibilidade você terá.",
   },
 ];
 
@@ -43,7 +43,7 @@ export const FAQ = () => {
             FAQ
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-6">
-            Perguntas Frequentes
+            Dúvidas Frequentes
           </h2>
         </motion.div>
 

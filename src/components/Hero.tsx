@@ -13,16 +13,16 @@ export const Hero = () => {
         >
           <span className="px-4 py-2 bg-primary text-white rounded-full text-sm font-medium inline-block">
             <Dumbbell className="w-4 h-4 inline-block mr-2" />
-            Seu Personal Trainer Ideal
+            Para Personal Trainers
           </span>
           <h1 className="text-4xl md:text-6xl font-bold text-secondary">
-            Encontre o <span className="text-primary">personal trainer</span> perfeito para você
+            Expanda sua base de <span className="text-primary">alunos</span> com nossa plataforma
           </h1>
           <p className="text-secondary-light text-lg md:text-xl max-w-xl">
-            Conectamos você aos melhores personal trainers da sua região, com experiência comprovada e avaliações reais.
+            Conecte-se com alunos em potencial, gerencie seus horários e aumente sua renda mensal com nossa plataforma especializada para personal trainers.
           </p>
           <button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-300 transform hover:scale-105">
-            Baixe o App Agora
+            Comece Agora
           </button>
         </motion.div>
         <motion.div
@@ -32,7 +32,7 @@ export const Hero = () => {
           className="relative"
         >
           <img
-            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b"
+            src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
             alt="Personal Trainer"
             className="rounded-2xl shadow-2xl w-full object-cover"
             style={{ height: "600px" }}

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Users } from "lucide-react";
+import { Target } from "lucide-react";
 
 export const About = () => {
   return (
@@ -12,10 +12,10 @@ export const About = () => {
           className="text-center mb-16"
         >
           <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium inline-block">
-            Sobre Nós
+            Sobre a Plataforma
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-6">
-            Conectando Saúde e Tecnologia
+            Potencialize sua Carreira
           </h2>
         </motion.div>
 
@@ -27,17 +27,18 @@ export const About = () => {
             className="space-y-6"
           >
             <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
-              <Users className="w-8 h-8 text-primary" />
+              <Target className="w-8 h-8 text-primary" />
             </div>
-            <h3 className="text-2xl font-bold">Nossa Missão</h3>
+            <h3 className="text-2xl font-bold">Nossa Proposta</h3>
             <p className="text-gray-300 leading-relaxed">
-              Nascemos com o propósito de democratizar o acesso a profissionais qualificados de educação física. 
-              Nossa plataforma conecta pessoas que buscam uma vida mais saudável com os melhores personal trainers, 
-              tornando o processo de encontrar o profissional ideal simples e seguro.
+              Desenvolvemos uma plataforma completa pensando nas necessidades dos personal trainers modernos. 
+              Com nossa solução, você pode gerenciar sua agenda, receber pagamentos, acompanhar o progresso 
+              dos alunos e expandir sua base de clientes.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              Com anos de experiência no mercado fitness, desenvolvemos uma solução que atende às necessidades 
-              tanto dos alunos quanto dos profissionais, criando uma comunidade engajada e comprometida com resultados.
+              Oferecemos ferramentas para você se destacar no mercado, criar seu perfil profissional, 
+              compartilhar resultados e construir sua reputação online. Tudo isso em uma única plataforma 
+              intuitiva e eficiente.
             </p>
           </motion.div>
           <motion.div
@@ -47,8 +48,8 @@ export const About = () => {
             className="relative"
           >
             <img
-              src="https://images.unsplash.com/photo-1574680096145-d05b474e2155"
-              alt="Equipe de Trabalho"
+              src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
+              alt="Personal Trainer em ação"
               className="rounded-2xl shadow-2xl w-full object-cover"
               style={{ height: "500px" }}
             />

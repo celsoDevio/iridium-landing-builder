@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Medal, Clock, Star, Shield } from "lucide-react";
+import { Users, Calendar, DollarSign, LineChart } from "lucide-react";
 
 const benefits = [
   {
-    icon: Medal,
-    title: "Profissionais Certificados",
-    description: "Todos os personal trainers são certificados e verificados",
+    icon: Users,
+    title: "Mais Visibilidade",
+    description: "Alcance milhares de alunos em potencial na sua região",
   },
   {
-    icon: Clock,
-    title: "Horários Flexíveis",
-    description: "Agende treinos de acordo com sua disponibilidade",
+    icon: Calendar,
+    title: "Gestão Simplificada",
+    description: "Organize seus horários e agenda de forma eficiente",
   },
   {
-    icon: Star,
-    title: "Avaliações Reais",
-    description: "Veja avaliações de alunos reais antes de escolher",
+    icon: DollarSign,
+    title: "Aumente sua Renda",
+    description: "Maximize seus ganhos com mais alunos e melhor gestão",
   },
   {
-    icon: Shield,
-    title: "100% Seguro",
-    description: "Pagamentos seguros e garantia de satisfação",
+    icon: LineChart,
+    title: "Análise de Desempenho",
+    description: "Acompanhe seus resultados e crescimento profissional",
   },
 ];
 
@@ -38,7 +38,7 @@ export const Benefits = () => {
             Benefícios
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mt-6">
-            Por que escolher nosso app?
+            Por que usar nossa plataforma?
           </h2>
         </motion.div>
 
