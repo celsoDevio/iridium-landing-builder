@@ -1,7 +1,18 @@
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
-const testimonials = [
+interface TestimonialItem {
+  name: string;
+  role: string;
+  content: string;
+  image: string;
+}
+
+interface TestimonialsProps {
+  data?: TestimonialItem[];
+}
+
+const defaultTestimonials = [
   {
     name: "Ricardo Almeida",
     role: "Personal Trainer",
@@ -25,7 +36,9 @@ const testimonials = [
   },
 ];
 
-export const Testimonials = () => {
+export const Testimonials = ({ data = defaultTestimonials }: TestimonialsProps) => {
+  const testimonials = data;
+
   return (
     <section className="py-20 px-4 bg-primary-light">
       <div className="container mx-auto">

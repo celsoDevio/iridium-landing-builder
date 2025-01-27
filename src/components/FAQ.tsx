@@ -6,7 +6,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const faqs = [
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface FAQProps {
+  data?: FAQItem[];
+}
+
+const defaultFaqs = [
   {
     question: "Como funciona o cadastro na plataforma?",
     answer: "O cadastro é simples e rápido. Você precisa fornecer seus dados profissionais, certificações e criar seu perfil. Após a verificação das informações, você já pode começar a receber alunos.",
@@ -29,7 +38,9 @@ const faqs = [
   },
 ];
 
-export const FAQ = () => {
+export const FAQ = ({ data = defaultFaqs }: FAQProps) => {
+  const faqs = data;
+
   return (
     <section className="py-20 px-4 bg-secondary-light text-white">
       <div className="container mx-auto">

@@ -1,7 +1,17 @@
 import { motion } from "framer-motion";
 import { Users, Calendar, DollarSign, LineChart } from "lucide-react";
 
-const benefits = [
+interface BenefitItem {
+  icon: any; // Using any for Lucide icons
+  title: string;
+  description: string;
+}
+
+interface BenefitsProps {
+  data?: BenefitItem[];
+}
+
+const defaultBenefits = [
   {
     icon: Users,
     title: "Mais Visibilidade",
@@ -24,7 +34,9 @@ const benefits = [
   },
 ];
 
-export const Benefits = () => {
+export const Benefits = ({ data = defaultBenefits }: BenefitsProps) => {
+  const benefits = data;
+
   return (
     <section className="py-20 px-4 bg-white">
       <div className="container mx-auto">
