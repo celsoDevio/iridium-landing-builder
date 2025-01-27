@@ -40,9 +40,12 @@ export const SocialMedia = ({ title, subtitle, socialLinks }: SocialMediaProps) 
               href={socialLinks.facebook}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="group transition-transform hover:scale-110"
             >
-              <Facebook className="w-8 h-8" />
+              <div className="bg-primary/10 p-4 rounded-full group-hover:bg-primary/20 transition-colors">
+                <Facebook className="w-8 h-8 text-primary" />
+              </div>
+              <span className="block text-center mt-2 text-sm text-gray-300">Facebook</span>
             </a>
           )}
           {socialLinks.instagram && (
@@ -50,9 +53,12 @@ export const SocialMedia = ({ title, subtitle, socialLinks }: SocialMediaProps) 
               href={socialLinks.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="group transition-transform hover:scale-110"
             >
-              <Instagram className="w-8 h-8" />
+              <div className="bg-primary/10 p-4 rounded-full group-hover:bg-primary/20 transition-colors">
+                <Instagram className="w-8 h-8 text-primary" />
+              </div>
+              <span className="block text-center mt-2 text-sm text-gray-300">Instagram</span>
             </a>
           )}
           {socialLinks.youtube && (
@@ -60,9 +66,12 @@ export const SocialMedia = ({ title, subtitle, socialLinks }: SocialMediaProps) 
               href={socialLinks.youtube}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="group transition-transform hover:scale-110"
             >
-              <Youtube className="w-8 h-8" />
+              <div className="bg-primary/10 p-4 rounded-full group-hover:bg-primary/20 transition-colors">
+                <Youtube className="w-8 h-8 text-primary" />
+              </div>
+              <span className="block text-center mt-2 text-sm text-gray-300">YouTube</span>
             </a>
           )}
           {socialLinks.twitter && (
@@ -70,9 +79,12 @@ export const SocialMedia = ({ title, subtitle, socialLinks }: SocialMediaProps) 
               href={socialLinks.twitter}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="group transition-transform hover:scale-110"
             >
-              <Twitter className="w-8 h-8" />
+              <div className="bg-primary/10 p-4 rounded-full group-hover:bg-primary/20 transition-colors">
+                <Twitter className="w-8 h-8 text-primary" />
+              </div>
+              <span className="block text-center mt-2 text-sm text-gray-300">Twitter</span>
             </a>
           )}
         </motion.div>
