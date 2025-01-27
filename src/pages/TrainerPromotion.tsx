@@ -1,11 +1,9 @@
-import { Hero } from "@/components/Hero";
-import { Benefits } from "@/components/Benefits";
-import { About } from "@/components/About";
-import { FAQ } from "@/components/FAQ";
-import { Testimonials } from "@/components/Testimonials";
-import { Contact } from "@/components/Contact";
-import { CTA } from "@/components/CTA";
-import { SocialMedia } from "@/components/SocialMedia";
+import { Benefits } from "../components/Benefits";
+import { Hero } from "../components/Hero";
+import { About } from "../components/About";
+import { Testimonials } from "../components/Testimonials";
+import { FAQ } from "../components/FAQ";
+import { SocialMedia } from "../components/SocialMedia";
 
 const TrainerPromotion = () => {
   return (
@@ -14,7 +12,7 @@ const TrainerPromotion = () => {
         title="Seja um Personal Trainer de Sucesso"
         subtitle="Transforme sua carreira e alcance mais clientes"
         buttonText="Comece Agora"
-        imageSrc="/placeholder.svg"
+        imageSrc="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
         tag="Junte-se a nós"
       />
       <Benefits />
@@ -26,22 +24,17 @@ const TrainerPromotion = () => {
           "Gerencie seus horários e agenda de forma eficiente",
           "Receba suporte e ferramentas para crescer seu negócio"
         ]}
-        imageSrc="/placeholder.svg"
+        imageSrc="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
       />
       <Testimonials />
       <FAQ />
       <SocialMedia
-        title="Conecte-se Conosco"
-        subtitle="Siga nossas redes sociais e fique por dentro das novidades para Personal Trainers"
-        socialLinks={{
-          facebook: "https://facebook.com/fitconnect.personal",
-          instagram: "https://instagram.com/fitconnect.personal",
-          youtube: "https://youtube.com/fitconnect.personal",
-          twitter: "https://twitter.com/fitconnect.personal"
-        }}
+        platforms={[
+          { name: "Instagram", url: "#" },
+          { name: "Facebook", url: "#" },
+          { name: "LinkedIn", url: "#" },
+        ]}
       />
-      <Contact />
-      <CTA />
     </div>
   );
 };
