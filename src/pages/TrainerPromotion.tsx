@@ -5,6 +5,7 @@ import { FAQ } from "@/components/FAQ";
 import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
 import { CTA } from "@/components/CTA";
+import { SocialMedia } from "@/components/SocialMedia";
 
 const TrainerPromotion = () => {
   const heroProps = {
@@ -88,6 +89,16 @@ const TrainerPromotion = () => {
     },
   ];
 
+  const socialMediaProps = {
+    title: "Conecte-se Conosco",
+    subtitle: "Faça parte da nossa comunidade de personal trainers",
+    socialLinks: {
+      facebook: "https://facebook.com/fitconnect.personal",
+      instagram: "https://instagram.com/fitconnect.personal",
+      youtube: "https://youtube.com/fitconnect.personal",
+    },
+  };
+
   return (
     <div className="min-h-screen bg-secondary">
       <Hero {...heroProps} />
@@ -95,6 +106,7 @@ const TrainerPromotion = () => {
       <About {...aboutProps} />
       <Testimonials data={testimonialData} />
       <FAQ data={faqData} />
+      <SocialMedia {...socialMediaProps} />
       <Contact />
       <CTA />
     </div>
